@@ -23,7 +23,7 @@ Feature require: 'Printf'.
 
 * This is the connection scheme (made with the powerfull *NiCad*).
   
-<img src="./img/serial-connection-diagram.png" width="30%"> </img>
+<img src="./img/serial-connection-diagram.png" width="40%"> </img>
 
 * Plug a USB-serial adaptors in each of your computers and check out the last lines in `$> sudo dmesg`, you should 
   see the name given to the newly connected widget device, to me it is `/dev/ttyUSB0` in both computers.
@@ -67,7 +67,7 @@ serC close.
 ```
 
 
-* That's it! We saw we are able to make our Cuis read and write over the serial line with another computer 
+* That's it! We saw we are able to make Cuis read and write over the serial line with another computer 
 running another programming language. 
 
 * Exercise.1. Try to communicate with **minicom** instead of Python.
