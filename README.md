@@ -58,19 +58,20 @@ b'Hello from Cuis, who is there ?\n'
 serP.write(b"Hello Cuis, here is Python, what's up ? \n")
 ```
 
-* Read the message in Cuis 
+* Read the message in Cuis then close the port, rats do not like much snakes.
 
 ```smalltalk
 serC readString .  " => ' Hello Cuis, here is Python, what''s up ? 
 ' "
+serC close.
 ```
 
-* That's it! Let's ignore the developement of this conversation, rats and snakes hardly ever shared a good time. 
-What matters is we are able to make our Cuis read and write over the serial line with another computer 
+
+* That's it! We saw we are able to make our Cuis read and write over the serial line with another computer 
 running another programming language. 
 
 * Exercise.1. Try to communicate with **minicom** instead of Python.
-* Exercise.2. Try to connect 2 USB-serial to only one computer and let it talk to itself.
+* Exercise.2. Try to connect 2 USB-serial to only one computer and e.g. let two Cuis instances it talk themselves.
 
 
 # History & Changelog
