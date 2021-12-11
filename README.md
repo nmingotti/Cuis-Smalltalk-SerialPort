@@ -55,7 +55,7 @@ serC nextPutAll: ('Hello from Cuis, who is there ? \n' printf: {}).
 ```python
 >>> serP.readline()
 b'Hello from Cuis, who is there ?\n'
-serP.write(b"Hello Cuis, here is Python, what's up ? \n")
+>>> serP.write(b"Hello Cuis, here is Python, what's up ? \n")
 ```
 
 * Read the message in Cuis then close the port, rats do not like much snakes.
